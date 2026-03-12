@@ -1,4 +1,4 @@
-### study-of-basic-gates
+<img width="470" height="901" alt="Screenshot 2026-03-12 102247" src="https://github.com/user-attachments/assets/0a52c8dc-2faf-4880-ba2e-404c76af5ccf" />### study-of-basic-gates
 
 **AIM:** 
 
@@ -66,14 +66,29 @@ Y= A⊕B
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
- Developed by: RegisterNumber: 
+ Developed by:R.ARLIN ERJ
+ RegisterNumber: 212225040027
+ module ex1(a,b,f1,f2,f3,f4,f5,f6,f7);
+ input a,b;
+ output f1,f2,f3,f4,f5,f6,f7;
+ assign f1=a&b;
+ assign f2=a|b;
+ assign f3=~a;
+ assign f4=~f1;
+ assign f5=~f2;
+ assign f6=a^b;
+ assign f7=~(a^b);
+ endmodule
  
 **Logic symbol & Truthtable**
+<img width="470" height="901" alt="Screenshot 2026-03-12 102247" src="https://github.com/user-attachments/assets/306d562c-32be-44ba-ba10-39849e7a7224" />
 
 **RTL realization Output:** 
+<img width="923" height="564" alt="Screenshot 2026-03-12 102305" src="https://github.com/user-attachments/assets/b06b2361-fb5e-4a48-8733-e6be872ee95f" />
 
 **RTL**
+<img width="1901" height="886" alt="Screenshot 2026-03-12 102323" src="https://github.com/user-attachments/assets/d6a40d93-8bbe-4ff9-ba08-4d347711d9dc" />
 
 **Result:**
-
+THUS,IT IS VERIFIED.
 
